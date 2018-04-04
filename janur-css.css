@@ -1,0 +1,186 @@
+body {
+    background-color: #4B8983;
+    color: white;
+    font-family: 'Cardo', serif;
+}
+#nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-family: 'Donegal One', serif;
+    font-size: 100%;
+    background-color: white;
+    border-top: 4px solid #BE5C41;
+}
+#nav a {
+    display: block;
+    padding: 0 1em;
+    line-height: 30px;
+    height: 30px;
+    overflow: hidden;
+    color: #437976;
+}
+#nav a:hover,
+#nav li:hover > a {
+  color:white;
+  text-decoration:none;
+  background-color:#BE5C41;
+}
+#nav li ul {
+  clear:both;
+  width:170px;
+  height:auto;
+  position:absolute;
+  top:100%;
+  background-color:white;
+  z-index:777;
+  box-shadow:0 1px 1px rgba(0,0,0,.2);
+  display:none;
+}
+#nav ul li:hover .hidden {display:block}
+#nav li li {
+  float:none;
+  display:block;
+  width:auto;
+}
+.date-header {
+    font-family: 'Donegal One', serif;
+    position: absolute;
+    top: 0;
+    right: 1em;
+    line-height: 30px;
+    height: 30px;
+    text-transform: uppercase;
+    color: #437976;
+}
+.post .post-title {
+    text-align: center;
+    margin: 0 0 1.5em;
+    font-size: 300%;
+    font-family: 'Schoolbell', cursive;
+    color: #FFB74C;
+}
+.post-footer {
+  font-size:130%;
+  margin-top:1.5em;
+  font-family: 'Josefin Sans', sans-serif;
+  color:black;
+}
+.post-footer a {
+  color:#AFD1E8;
+}
+.post-footer a:hover {
+  color:white;
+  text-decoration:none;
+}
+td.tr-caption{
+font-family: 'Shadows Into Light Two', cursive;
+font-weight:bold;
+}
+.shorten-box {
+    font-size: 130%;
+    font-weight: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black!important;
+    margin: 10px 0;
+}
+.breadcrumbs {
+    font-size: 130%;
+    font-weight: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    color: black!important;
+}
+.breadcrumbs a{
+    color:#AFD1E8;
+}
+.breadcrumbs a:hover{
+    color:white;
+}
+#blog-pager {
+    font-size: 120%;
+    text-transform: titlecase;
+    padding: 1.5em 2em;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+#blog-pager a {
+    color: #C3B083;
+}
+#blog-pager a {
+    color: white;
+}
+.comments h4 {
+    text-transform: capitalize;
+    font-family: 'Freckle Face', cursive;
+    color: #FFD699;
+    font-size: 1.5rem !important;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px; 
+}
+.comment-form p {
+    font-family: 'Just Another Hand', cursive;
+    font-size: 1.5rem !important;
+    text-align: left;
+}
+.comment-form a{
+  color: #AFD1E8;
+}
+.comment-form a:hover{
+  color: white;
+}
+.footer-column h2 {
+    font-size: 120%;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.5em;
+    margin-left: 0px;
+    padding-bottom: 0.5em;
+    font-family: 'Pangolin', cursive;
+    color: black;
+    border-bottom: 2px solid #fff;
+}
+.footer-column li a {
+  color:#AFD1E8;
+}
+.footer-column li a:hover {
+  color:white;
+}
+#end-footer {
+    font-size: 120%;
+    text-transform: titlecase;
+    padding: 1.5em 2em;
+    font-family: 'Emilys Candy', cursive;
+    background-color: #BD5B41;
+    color: white;
+    font-weight: normal;
+    border-top: 2px solid #55938E;
+}
+.go-top {
+    position: fixed!important;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 7777;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 7.953px;
+    padding-bottom: 5.953px;
+    font-family: &#39;Special Elite&#39;, cursive;
+    text-transform:uppercase;
+    line-height: normal;
+    font-size: 10px;
+    background-color: #437976;
+    color: white; 
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+}
+.go-top:hover{
+    background-color: #BE5C41;
+    color: white;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26); 
+}
